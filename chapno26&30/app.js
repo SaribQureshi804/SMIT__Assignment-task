@@ -53,7 +53,38 @@
 
 // task no: 07
 
-let userWeight = prompt("Enter your weight in kilograms ");
-let weight = parseFloat(userWeight);
-console.log("The weight of user is " + weight + " kilograms");
-alert("The weight of user is " + weight + " kilograms");
+// let userWeight = prompt("Enter your weight in kilograms ");
+// let weight = parseFloat(userWeight);
+// console.log("The weight of user is " + weight + " kilograms");
+// alert("The weight of user is " + weight + " kilograms");
+
+
+
+// task n0:8
+
+let number = Math.floor(Math.random()* 10) + 1;
+let userinput = +prompt("Enter a number between 1 and 10: ");
+
+if (userinput === number ) {
+    alert("Congratulations! You guessed the correct number.");
+}
+else{
+    alert("Sorry, the correct number was " + number + ". Try again!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
