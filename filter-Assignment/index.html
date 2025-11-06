@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Filter Table Search Bar</h1>
+    <hr>
+<div id="input1">
+    <input type="search" id="searchbox" name="" onkeyup="Filterlist()"  placeholder="Search-here...">
+</div>
+<table id="Tabledata">
+<tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Country</th>
+    <th>City</th>
+</tr>
+<tr>
+    <td>01</td>
+    <td>Ahsan</td>
+    <td>Pakistan</td>
+    <td>Karachi</td>
+</tr>
+<tr>
+    <td>02</td>
+    <td>Ali</td>
+    <td>Pakistan</td>
+    <td>lahore</td>
+</tr>
+<tr>
+    <td>03</td>
+    <td>Turab</td>
+    <td>Pakistan</td>
+    <td>Multan</td>
+</tr>
+<tr>
+    <td>04</td>
+    <td>Ahmed</td>
+    <td>Pakistan</td>
+    <td>Islamabad</td>
+</tr>
+<tr>
+    <td>05</td>
+    <td>Asad</td>
+    <td>Pakistan</td>
+    <td>Faisalabad</td>
+</tr>
+<tr>
+<td>06</td>
+<td>Affan</td>
+<td>Pakistan</td>
+<td>Quetta</td>
+</tr>
+
+<tr>
+    <td>07</td>
+    <td>AbdulRehman</td>
+    <td>Pakistan</td>
+    <td>Peshawar</td>
+</tr>
+
+ 
+</table>
+
+    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-auth-compat.js"></script>
+
+<script>
+ const firebaseConfig = {
+  // ...
+};
+
+// Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+</script>
+
+    <script src="app.js"></script>
+</body>
+</html>

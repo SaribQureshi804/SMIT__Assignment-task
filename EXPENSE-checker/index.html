@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topup">
+    <h1>Daily Expense Tracker</h1>
+    <h2 id="budget-amount"></h2>
+    <input type="number" name="budget" id="budget">
+    <button onClick="setBudget()">Add Budget</button>
+    
+    <hr>
+</div>
+<div class="middle">
+    Expense Name:
+    <input type="text" name="expense-name" id="expense-name">
+    Expense Amount:
+    <input type="number" name="expense" id="expense-amount">
+    <button onClick="setExpense()">Add Expense</button>
+</div>
+    <ul id="expense-list">
+
+    </ul>
+
+    <p id="summary"></p>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
